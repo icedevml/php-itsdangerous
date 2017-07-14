@@ -2,4 +2,4 @@
 
 namespace IceDev\itsdangerous;
 
-class SignException extends RuntimeException {}
+class SignException extends \RuntimeException {}
