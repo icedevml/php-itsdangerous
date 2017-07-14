@@ -1,0 +1,8 @@
+{
+    "name": "icedevml/php-itsdangerous",
+    "autoload": {
+        "psr-0" : {
+            "IceDev\\itsdangerous" : "src"
+        }
+    }
+}

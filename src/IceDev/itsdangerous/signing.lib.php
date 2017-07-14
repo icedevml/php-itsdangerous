@@ -1,5 +1,7 @@
 <?php
- 
+
+namespace IceDev\itsdangerous;
+
 class SignException extends RuntimeException {}
 class InvalidSignatureException extends SignException {}
 class InvalidSignPayloadException extends SignException {}
