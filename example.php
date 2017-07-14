@@ -3,6 +3,7 @@
 require 'vendor/autoload.php';
 
 use IceDev\itsdangerous\Signing;
+use IceDev\itsdangerous\InvalidSignatureException;
 
 // example
 $s = new Signing('some_random_secret');
