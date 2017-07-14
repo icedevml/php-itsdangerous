@@ -1,5 +1,6 @@
 {
     "name": "icedevml/php-itsdangerous",
+    "license": "MIT",
     "autoload": {
         "psr-0" : {
             "IceDev\\itsdangerous" : "src"
