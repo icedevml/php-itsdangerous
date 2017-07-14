@@ -3,7 +3,7 @@ A very simple library which resembles basic functionality of Python's itsdangero
 
 ```php
 // take $data, serialize it with JSON, append a HMAC signature to it and finally base64-encode it
-Signing::sign_dump($data, $secret, $hash_func='sha256')
+Signing::dump($data, $secret, $hash_func='sha256')
 
 // do the reverse: decode base64, read and validate the signature and unserialize JSON-encoded data
 Signing::load($data, $secret, $hash_func='sha256')
